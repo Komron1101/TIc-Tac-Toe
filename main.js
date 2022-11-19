@@ -9,7 +9,7 @@ window.addEventListener('DOMContentLoaded', () => {
 	let currentPlayer = 'X';
 	let isGameActive = true;
 
-
+  
 	// почему и как меняем константы?
 	const PLAYER_X_WON = 'PLAYER_WON';
 	const PLAYER_O_WON = 'PLAYER_LOSE';
@@ -21,7 +21,7 @@ window.addEventListener('DOMContentLoaded', () => {
 		[3] [4] [5]
 		[6] [7] [8]
 	*/
-
+  
 	const winningConditions = [
 		[0, 1, 2],
 		[3, 4, 5],
